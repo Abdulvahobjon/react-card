@@ -1,10 +1,13 @@
 import React from "react";
-import Card from "./component/Card";
-
+import Nuestros from "./component/Nuestros";
+import Nosotras from "./component/Nosotras";
+import Quality from "./component/Quality";
 function App() {
   return (
-    <div className="max-w-[1480px] px-5  mx-auto border grid grid-cols-4 gap-4 my-24">
-      <Card/>
+    <div className=" my-24">
+      <Nuestros/>
+      <Quality/>
+      <Nosotras/>
     </div>
   );
 }
